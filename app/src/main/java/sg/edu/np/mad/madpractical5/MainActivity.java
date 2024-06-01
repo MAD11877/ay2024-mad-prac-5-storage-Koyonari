@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        DBHandler DatabaseHandler = new DBHandler(this, null, null, 1);
+        DatabaseHandler DatabaseHandler = new DatabaseHandler(this, null, null, 1);
         TextView nameview = findViewById(R.id.TextView2);
         TextView descview = findViewById(R.id.TextView3);
         Button followbtn = findViewById(R.id.Button1);
